@@ -1,8 +1,9 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Privacy Policy – Meja Kasir</title>
   <style>
     body {
@@ -15,7 +16,7 @@
       background-color: #fff;
     }
 
-    h1, h2 {
+    h1, h2, h3 {
       color: #2c3e50;
     }
 
@@ -29,16 +30,29 @@
       margin-top: 32px;
     }
 
+    h3 {
+      font-size: 16px;
+      margin-top: 20px;
+    }
+
     p {
       margin-bottom: 16px;
     }
 
     ul {
       margin-bottom: 16px;
+      padding-left: 24px;
     }
 
     .section {
       margin-bottom: 40px;
+    }
+
+    .note {
+      background: #f8f9fa;
+      border-left: 4px solid #2c3e50;
+      padding: 12px 16px;
+      margin: 16px 0;
     }
 
     footer {
@@ -52,87 +66,176 @@
 <body>
 
   <h1>Privacy Policy – Meja Kasir</h1>
-  <p><strong>Effective Date:</strong> July 6, 2025</p>
+  <p><strong>Effective Date:</strong> June 4, 2026</p>
 
   <div class="section">
     <h2>1. Introduction</h2>
     <p>
-      Meja Kasir is a fully offline point-of-sale (POS) application. We are committed to protecting your privacy.
-      This policy outlines how the app handles data, permissions, and in-app purchases.
+      Meja Kasir is a fully offline point-of-sale (POS) application designed to help users manage sales,
+      products, reports, and business operations directly on their device.
     </p>
-    <p><strong>We do not collect, transmit, or share any personal or sensitive user data.</strong></p>
+    <p>
+      We are committed to protecting your privacy. This Privacy Policy explains how Meja Kasir handles
+      data, device permissions, security features, and in-app purchases.
+    </p>
+    <p>
+      <strong>Meja Kasir does not collect, transmit, sell, or share personal or sensitive user data.</strong>
+    </p>
   </div>
 
   <div class="section">
     <h2>2. Data Collection and Storage</h2>
     <p>
-      All user data (transactions, products, settings) is stored <strong>locally</strong> on the user’s device.
-      Meja Kasir does not connect to any external servers, nor does it require user login or registration.
+      All application data, including transactions, products, reports, and settings, is stored
+      <strong>locally</strong> on the user's device.
+    </p>
+    <p>
+      Meja Kasir does not require account registration or login and does not transmit user data
+      to external servers.
     </p>
   </div>
 
   <div class="section">
     <h2>3. Permissions Used</h2>
-    <p>To support certain features, the app may request the following Android permissions:</p>
+    <p>
+      To support application functionality, Meja Kasir may request the following Android permissions:
+    </p>
+
+    <h3>Storage Access</h3>
     <ul>
-      <li><strong>READ_EXTERNAL_STORAGE:</strong> To import backup files created by the user.</li>
-      <li><strong>WRITE_EXTERNAL_STORAGE:</strong> (Android 9 and below) To export backup data to device folders.</li>
-      <li><strong>READ_MEDIA_IMAGES / DOCUMENTS:</strong> For accessing product images and backup files (Android 13+).</li>
-      <li><strong>BLUETOOTH / CONNECT / SCAN:</strong> To connect and print to Bluetooth thermal printers.</li>
-      <li><strong>ACCESS_FINE_LOCATION:</strong> Required by the system on Android 10–11 for Bluetooth scanning. No location is collected.</li>
+      <li>
+        <strong>READ_EXTERNAL_STORAGE:</strong>
+        Used to import backup files created by the user.
+      </li>
+      <li>
+        <strong>WRITE_EXTERNAL_STORAGE:</strong>
+        Used on Android 9 and below to export backup data to local device storage.
+      </li>
+      <li>
+        <strong>READ_MEDIA_IMAGES / Document Access:</strong>
+        Used on Android 13+ to access product images and backup files selected by the user.
+      </li>
     </ul>
-    <p>All permissions are used locally and only when features are actively triggered by the user.</p>
+
+    <h3>Bluetooth Access</h3>
+    <ul>
+      <li>
+        <strong>BLUETOOTH / BLUETOOTH_CONNECT / BLUETOOTH_SCAN:</strong>
+        Used to connect and print to compatible Bluetooth thermal printers.
+      </li>
+    </ul>
+
+    <h3>Location Access</h3>
+    <ul>
+      <li>
+        <strong>ACCESS_FINE_LOCATION:</strong>
+        May be required by the Android operating system on Android 10–11 to enable Bluetooth
+        device scanning. Meja Kasir does not collect, track, or store location information.
+      </li>
+    </ul>
+
+    <h3>Biometric and Device Authentication</h3>
+    <ul>
+      <li>
+        <strong>USE_BIOMETRIC:</strong>
+        Used to allow device authentication for protecting access to sensitive sections of the application.
+      </li>
+      <li>
+        <strong>USE_FINGERPRINT:</strong>
+        May be used where applicable on older Android versions.
+      </li>
+    </ul>
+
+    <p>
+      Meja Kasir may use the device's built-in authentication mechanisms, such as fingerprint,
+      facial recognition, PIN, password, or screen lock pattern, to help protect sensitive areas
+      of the application.
+    </p>
+
+    <div class="note">
+      <p>
+        <strong>Important:</strong> Meja Kasir does not collect, store, process, or transmit biometric
+        information. Biometric verification is performed entirely by the Android operating system.
+        The application only receives a confirmation result indicating whether authentication was
+        successful or unsuccessful.
+      </p>
+    </div>
+
+    <p>
+      All permissions are used locally on the device and only when the corresponding feature is
+      actively used by the user.
+    </p>
   </div>
 
   <div class="section">
     <h2>4. Backup and Restore</h2>
     <p>
-      Users can manually back up and restore their data using local device storage.
-      The app never uploads or transmits data to any server.
+      Users may manually create and restore backups using local device storage.
+    </p>
+    <p>
+      Backup files remain under the user's control and are never uploaded to external servers by Meja Kasir.
     </p>
   </div>
 
   <div class="section">
     <h2>5. In-App Purchases</h2>
     <p>
-      Meja Kasir offers a one-time Premium upgrade via Google Play Billing.
-      All transactions are securely handled by Google.
-      The app does not store or access any personal or payment information.
+      Meja Kasir offers a one-time Premium upgrade through Google Play Billing.
+    </p>
+    <p>
+      All purchase transactions are securely processed by Google Play. Meja Kasir does not collect,
+      store, or access payment card information, banking details, or other financial data.
     </p>
   </div>
 
   <div class="section">
     <h2>6. Children's Privacy</h2>
     <p>
-      Meja Kasir is not intended for children. We do not knowingly collect data from users under the age of 13.
+      Meja Kasir is not intended for children under the age of 13.
+    </p>
+    <p>
+      We do not knowingly collect personal information from children.
     </p>
   </div>
 
   <div class="section">
     <h2>7. Data Security</h2>
     <p>
-      Because the app is fully offline, users are responsible for data security and backups.
-      We strongly encourage you to back up your data regularly using the built-in feature.
+      Because Meja Kasir operates fully offline, users retain full control over their data.
+    </p>
+    <p>
+      Security features such as device authentication, including fingerprint, face recognition,
+      PIN, password, or screen lock pattern, may be used to help protect sensitive areas of
+      the application.
+    </p>
+    <p>
+      Users are encouraged to create regular backups of their data using the built-in backup feature.
     </p>
   </div>
 
   <div class="section">
-    <h2>8. Policy Changes</h2>
+    <h2>8. Changes to This Privacy Policy</h2>
     <p>
-      This privacy policy may be updated from time to time. Any updates will be published within the app or this page.
+      We may update this Privacy Policy from time to time.
+    </p>
+    <p>
+      Any future updates will be published within the application, on the Google Play Store listing,
+      or on the associated privacy policy page.
     </p>
   </div>
 
   <div class="section">
     <h2>9. Contact</h2>
     <p>
-      If you have any questions or concerns about this Privacy Policy, please contact us through the email address provided on our Google Play Store page.
+      If you have questions or concerns regarding this Privacy Policy, please contact us using the
+      email address provided on the Google Play Store listing.
     </p>
   </div>
 
   <footer>
-    &copy; 2025 Meja Kasir. All rights reserved.
+    &copy; 2026 Meja Kasir. All rights reserved.
   </footer>
 
 </body>
 </html>
+```
